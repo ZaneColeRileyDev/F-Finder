@@ -1,0 +1,38 @@
+F-Finder Software License
+Copyright (c) 2026 ZaneColeRileyDev
+
+Permission is hereby granted to any person obtaining a copy of this software
+and associated source files (the "Software") to use, compile, and run the
+Software for personal or commercial purposes, subject to the following
+conditions:
+
+1. CREDIT REQUIRED
+   Any use, distribution, or incorporation of this Software — in whole or in
+   part — must include clear and visible credit to the original developer:
+
+       ZaneColeRileyDev
+
+   This credit must appear in any documentation, README, about page, or
+   other materials accompanying the Software or any derivative work.
+
+2. NO CLAIMING OWNERSHIP
+   You may not claim this Software, or any substantial portion of it, as
+   your own original work. Representing this Software as self-authored
+   without crediting ZaneColeRileyDev is a violation of this license.
+
+3. NO MISREPRESENTATION
+   You may not misrepresent the origin of this Software. Altered or
+   extended versions must be clearly marked as modified from the original,
+   and must not be presented as the original Software.
+
+4. REDISTRIBUTION
+   Redistribution of the source code or compiled binaries is permitted
+   provided that this license file is included and the conditions above
+   are met.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.

@@ -124,6 +124,12 @@ src/
 
 ---
 
+## License
+
+This project is licensed under a custom license. You are free to use and compile the software, but you **may not claim it as your own** and must **give credit to ZaneColeRileyDev**. See [`LICENSE.txt`](LICENSE.txt) for the full terms.
+
+---
+
 ## Notes
 
 - When searching drive `C`, the tool automatically scopes the search to `C:/Users/<your-username>` to avoid scanning system directories unnecessarily.
