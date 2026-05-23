@@ -1,5 +1,7 @@
 use walkdir::WalkDir;
+#[cfg(target_os = "windows")]
 use sysinfo::Disks;
+
 use crate::algorithim::{OutputPath, OutputJson};
 
 
@@ -69,7 +71,7 @@ pub async fn search_file_by_both(root: String, search_term: Option<String>, ext:
     Some(OutputJson::new(found_paths))
 }
 
-
+#[cfg(target_os = "windows")]
 fn get_drive_letters() -> Vec<String> {
     let disks = Disks::new_with_refreshed_list();
 
@@ -78,8 +80,7 @@ fn get_drive_letters() -> Vec<String> {
     .collect()
 }
 
-
-
+#[cfg(target_os = "windows")]
 pub fn get_roots() -> Vec<String> {
     let roots: Vec<String> = get_drive_letters();
     for (i, root) in roots.iter().enumerate() {
