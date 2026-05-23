@@ -1,6 +1,6 @@
 # F-Finder
 
-> ⚠️ **Windows Only** — F-Finder has only been tested on Windows. Linux/macOS support is not guaranteed.
+> ⚠️ **Windows and Linux Support Only** — F-Finder has only been tested on Windows and Linux. macOS support is not avalible.
 
 A fast, async command-line file search tool written in Rust. Search your drives for files by name, extension, or both — and get the results as a structured JSON file.
 
@@ -50,7 +50,7 @@ f-finder --drive-letter <LETTER> [OPTIONS]
 
 ---
 
-## Examples
+## Windows Examples
 
 Search for all `.odt` files on drive `E`:
 ```bash
@@ -65,6 +65,26 @@ f-finder --drive-letter C --term roadmap
 Search for `.rs` files with "search" in the name across all drives:
 ```bash
 f-finder --drive-letter C --all-drives --term search --ext rs
+```
+
+---
+
+## Linux Examples
+Linux does not have the args --drive-letter or --all-drives, it only looks through the /home/username/ dir
+
+Search for all `.odt` files on drive `E`:
+```bash
+f-finder --ext odt
+```
+
+Search for files with "roadmap" in the name on drive `C`:
+```bash
+f-finder --term roadmap
+```
+
+Search for `.rs` files with "search" in the name across all drives:
+```bash
+f-finder --term search --ext rs
 ```
 
 ---
